@@ -1,0 +1,92 @@
+/* CSS Document */
+tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline; }
+/*
+
+	community
+
+*/
+.free_community { background: url(../images/free_community.jpg) no-repeat; float: left; height: 50px; width: 200px; }
+.news_community { background: url(../images/news_com.jpg) no-repeat; float: left; height: 50px; width: 200px; }
+.friend_community { background: url(../images/friend.jpg) no-repeat; float: left; height: 50px; width: 200px; }
+.party_community { background: url(../images/juhui.jpg) no-repeat; float: left; height: 50px; width: 200px; }
+.advise_community { background: url(../images/office.jpg) no-repeat; float: left; height: 50px; width: 200px; }
+.writter_community { background: url(../images/writter.jpg) no-repeat; float: left; height: 50px; width: 200px; }
+.music_community { background: url(../images/community_music.jpg) no-repeat; float: left; height: 50px; width: 200px; }
+.drama_community { background: url(../images/community_drama.jpg) no-repeat; float: left; height: 50px; width: 200px; }
+.movie_community { background: url(../images/community_movie.jpg) no-repeat; float: left; height: 50px; width: 200px; }
+.tvshow_community { background: url(../images/community_aorak.jpg) no-repeat; float: left; height: 50px; width: 200px; }
+.cartoon_community { background: url(../images/community-child.jpg) no-repeat; float: left; height: 50px; width: 200px; }
+.picbook_community { background: url(../images/community-manhua.jpg) no-repeat; float: left; height: 50px; width: 200px; }
+.recommand_community { background: url(../images/recommand.jpg) no-repeat; float: left; height: 50px; width: 200px; }
+.popular_community { background: url(../images/popular.jpg) no-repeat; float: left; height: 50px; width: 200px; }
+#community_wrap { width: 996px; overflow: hidden; border: 1px solid rgb(218, 218, 218); margin-top: 3px; z-index: 0; }
+#community_wrap .community_board { width: 14%; border-right: 1px solid rgb(218, 218, 218); border-bottom: 1px solid rgb(218, 218, 218); }
+#community_wrap .community_board a { font-family: 'microsoft yahei', '돋움', dotum, Helvetica, sans-serif; }
+#community_wrap .community_board a.off { color:#ddd; }
+#community_wrap .community_board a.off:hover { text-decoration:none;}
+#community_wrap h3 { background: url(../images/board_community.gif) repeat-x; height: 30px; line-height: 30px; text-align: center; font-weight: bold; color: rgb(93,118,184); }
+#community_wrap ul { padding: 10px 0px 10px 5px; }
+#community_wrap li { background: url("http://wstatic.dcinside.com/gallery/skin/main/new_img/icon_list_dot.gif") no-repeat scroll left center transparent; padding-left: 6px; line-height: 20px; width: 126px; }
+#postContents { width: 1000px; height: auto; min-height: 650px; position: relative; margin-top: 5px;/*background: rgb(243,114,152);*/ }
+#postContents .postLeft { left: 0px; top: 0px; width: 110px; height: 100%; }
+#postContents .postCenter { left: 0px; top: 0px; width: 750px; }
+#postContents .postRight { position: absolute; right: 0px; top: 0px; width: 250px; height: 650px; }
+#communitypostAd { border: 1px solid rgb(204, 204, 204); width: 100%; }
+#rightBoxWrap { position: relative; width: 230px; margin-left: 10px; margin-top: 10px; }
+#rightBoxWrap .r_hotwz { position: relative; clear: both; margin-bottom: 14px; }
+/*
+
+	view_community
+
+*/
+
+#view_community_title { height: 50px; }
+#view_community_list_header { height: 30px; width: 100%; line-height: 30px; text-align: center; float: left; }
+#view_community_list_header ul { height: 33px; }
+#view_community_list_header li { display: inline; background: url(../images/list_back.gif) repeat-x; height: 33px; float: left; }
+#view_community_list_header .view_community_list_left { background: url(../images/list_left.gif) repeat-x; }
+#view_community_list_header .view_community_list_right { background: url(../images/list_right.gif) repeat-x; }
+#view_community_list_item { width: 740px; height: auto; border: 1px solid #dedede; text-align: center; float: left; margin-left: 2px; display: inline; }
+#view_community_list_item .view_community_list_item_date { font-size: 10pt; font-family: Candara, arial; color: rgb(102, 102, 102); }
+.view_community_tb_list { font-size: 10pt; font-family: Candara, arial; color: rgb(102, 102, 102); }
+.view_community_notice { height: 25px; }
+.view_community_tb_list td { line-height: 30px; }
+#kr_music_album { width: 438px; height: 360px; }
+#kr_music_switchBox em { width: 86px; }
+#music_top { height: 360px; }
+#contents .d_center { position: absolute; left: 245px; top: 0px; width: 715px; }
+.nb_box { position: relative; margin-top: 4px; }
+#view_community_contents { width: 1000px; height: auto; min-height: 650px; position: relative; margin-top: 5px; }
+#community_view_container { width: 1000px; height: auto; text-align: left; margin-left: 2px; margin-top: 10px; }
+#community_view_container h1 { line-height: 22px; background: none repeat scroll 0% 0% rgb(248, 248, 248); border: 1px solid rgb(221, 221, 221); font-size: 12px; padding: 3px 12px; font-weight: bold; }
+#community_view_header { }
+#community_view_info { height: 30px; line-height: 20px; border-bottom: 1px dashed rgb(205, 205, 205); }
+#community_view_info img { margin-top: 5px; }
+#community_view_info .jobMemberIcon { position: relative; left: 5px; top: 3px; }
+#community_view_info .jobMemberName { position: relative; left: 10px; top: 0px; }
+#community_view_info .jobLinkCopy { border-left: 1px solid }
+#community_view_time { line-height: 24px; font-size: 12px; padding: 3px 12px; }
+#community_view_content { padding: 0px 15px; word-break: break-all; text-align: left; background: rgb(245,245,245); }
+#community_view_comment { text-align: left; background: rgb(245,245,245); margin-top: 10px; margin-bottom: 20px; padding: 20px 30px 10px; box-shadow: 0px 1px 2px 0px rgb(204, 204, 204); overflow: hidden; }
+#community_view_comment h3 { border-bottom: 1px dashed rgb(204, 204, 204); padding: 0px 0px 10px 20px; margin: 0px -30px; }
+#community_view_comment a { color: rgb(48, 113, 169); }
+#community_view_comment .comment-form-comment label { display: none; }
+#community_view_comment label { padding-left: 5px; }
+#community_view_comment input, #job_view_comment textarea { float: left; font-size: 14px; }
+#community_view_comment .children { background-color: rgb(249, 249, 250); margin: 10px 0px 0px 46px; }
+#community_view_comment .children li { padding-left: 10px; }
+#community_view_comment p { clear: both; margin-top: 5px; overflow: hidden; }
+#community_view_comment input, #community_view_comment textarea { float: left; font-size: 14px; }
+#community_btn_bottom { float: left; width: 100%; height: 32px; margin-top: 10px; }
+# /*
+	community write
+*/
+#community_content_write {
+}
+#community_content_center { left: 0px; top: 0px; width: 800px; padding:0px 20px 20px 20px; }
+#community_content_right { position: absolute; right: 0px; top: 0px; width: 160px; }
+#community_content_title { float: left; padding: 10px 0px 10px 0px; }
+#community_content_title .w_title { float: left; padding: 0px 10px 0px 5px; }
+#community_content_title input { width: 280px; height: 20px; line-height: 20px; border: 1px solid rgb(195, 195, 195); font-size: 12px; padding: 0px 5px; vertical-align: middle; }
+}
+#community_content_editor { float: left; }

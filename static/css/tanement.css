@@ -1,0 +1,118 @@
+/* CSS Document */
+
+
+
+
+
+
+
+#job_contents { width: 1000px;  min-height: 1250px; position: relative; margin-top: 5px;/*background: rgb(243,114,152);*/ }
+#job_contents .job_left { left: 0px; top: 0px; width: 110px; height: 100%; }
+#job_contents .job_center { left: 0px; top: 0px; width: 730px; }
+#job_contents .job_right { position: absolute; right: 0px; top: 0px; width: 210px; height: 650px; }
+#job_list { width: 740px; height: auto; }
+#JobActions .newjob { background-color: rgb(0, 114, 187); }
+#JobActions .newjob:hover { background-color: rgb(0, 114, 221); }
+#JobActions .getjob { background-color: rgb(205, 73, 0); margin-top: 8px; }
+#JobActions .getjob:hover { background-color: rgb(221, 73, 68); }
+#JobActions .payjob { background-color: rgb(57, 170, 0); margin-top: 8px; }
+#JobActions .payjob:hover { background-color: rgb(57, 200, 68); }
+#JobActions .btn { padding: 10px 0px 10px 40px; }
+#JobActions a { display: block; font-size: 12pt; color: rgb(255, 255, 255); text-decoration: none; padding: 0px 0px 0px 40px; background: url("../images/actions.png") no-repeat scroll 0px 2px transparent; height: 32px; line-height: 32px; }
+#job_list_header { height: 50px; width: 100%; line-height: 30px; text-align: center; }
+#job_list_header h2 { height: 50px; background: url(../images/Joblist.jpg) no-repeat; float: left; height: 50px; width: 200px; }
+#talent_list_header { height: 50px; width: 100%; line-height: 30px; text-align: center; }
+#talent_list_header h2 { height: 50px; background: url(../images/talent.jpg) no-repeat; float: left; height: 50px; width: 200px; }
+#house_list_header { height: 50px; width: 100%; line-height: 30px; text-align: center; }
+#house_list_header h2 { height: 50px; background: url(../images/hosue.jpg) no-repeat; float: left; height: 50px; width: 200px; }
+#tenement_list_header { height: 50px; width: 100%; line-height: 30px; text-align: center; }
+#tenement_list_header h2 { height: 50px; background: url(../images/xiejib.jpg) no-repeat; float: left; height: 50px; width: 200px; }
+#secondhand_list_header { height: 50px; width: 100%; line-height: 30px; text-align: center; }
+#secondhand_list_header h2 { height: 50px; background: url(../images/business.jpg) no-repeat; float: left; height: 50px; width: 200px; }
+#car_list_header { height: 50px; width: 100%; line-height: 30px; text-align: center; }
+#car_list_header h2 { height: 50px; background: url(../images/car.jpg) no-repeat; float: left; height: 50px; width: 200px; }
+#job_tb_header { width: 100%; line-height: 30px; text-align: center; margin-top: 10px; }
+#job_tb_header ul { height: 33px; width: 100%; }
+#job_tb_header li { display: inline; background: url(../images/list_back.gif) repeat-x; height: 33px; float: left; }
+#job_tb_header .list_left { background: url(../images/list_left.gif) repeat-x; }
+#job_tb_header .list_right { background: url(../images/list_right.gif) repeat-x; }
+#job_list_item { width: 728px; border: 1px solid #dedede; text-align: center; margin-left: 2px; }
+#job_list_item .job_tb_list { width: 100%; }
+#job_list_item td { vertical-align: middle; }
+#job_list_item .job_tb_list .job_list_item_date { font-size: 10pt; font-family: Candara, arial; color: rgb(102, 102, 102); }
+#JobAreas { border: 1px solid rgb(204, 204, 204); padding: 20px; margin: 10px 0px 0px; }
+#JobSection { border: 1px solid rgb(204, 204, 204); padding: 20px; margin: 10px 0px 0px; }
+#JobSection h2 { font-size: 12pt; margin: 0px 0px 20px; color: rgb(102, 102, 102); }
+#JobSection ul { line-height: 22px; }
+#JobSection ul a { margin: 0px 0px 5px; }
+#JobSection ul li em { font-style: normal; margin-left: 5px; color: rgb(102, 102, 102); font-size: 9pt; }
+#job_form_wrap { border: 1px solid rgb(204, 204, 204); padding: 20px; }
+#job_form_wrap td { height: 80px; vertical-align: middle; font-size: 14px; }
+#job_view_wrap { width: 728px; height: 300px; border: 1px solid #dedede; text-align: center; margin-left: 2px; }
+#job_view_content { padding: 0px 15px; word-break: break-all; text-align: left; background: rgb(245,245,245); }
+#job_view_container { width: 728px; height: auto; text-align: left; margin-left: 2px; margin-top: 10px; }
+#job_view_container h1 { line-height: 22px; background: none repeat scroll 0% 0% rgb(248, 248, 248); border: 1px solid rgb(221, 221, 221); font-size: 12px; padding: 3px 12px; font-weight: bold; }
+#job_view_time { line-height: 24px; font-size: 12px; padding: 3px 12px; }
+#job_view_info { height: 30px; line-height: 20px; border-bottom: 1px dashed rgb(205, 205, 205); }
+#job_view_info img { margin-top: 5px; }
+#job_view_info .jobMemberIcon { position: relative; left: 5px; top: 3px; }
+#job_view_info .jobMemberName { position: relative; left: 10px; top: 0px; }
+#job_view_info .jobLinkCopy { border-left: 1px solid }
+#job_view_comment {  text-align: left; background: rgb(245,245,245); margin-top: 10px; margin-bottom: 20px;
+padding: 20px 30px 10px;
+box-shadow: 0px 1px 2px 0px rgb(204, 204, 204);
+overflow: hidden;}
+#job_view_comment h3{
+    border-bottom: 1px dashed rgb(204, 204, 204);
+    padding: 0px 0px 10px 20px;
+    margin: 0px -30px;
+}
+#job_view_comment .children {
+    background-color: rgb(249, 249, 250);
+    margin: 10px 0px 0px 46px;
+}
+#job_view_comment .children li {
+    padding-left: 10px;
+}
+#job_view_comment a { color: rgb(48, 113, 169); }
+#job_view_comment p {
+    clear: both;
+    margin-top: 5px;
+    overflow: hidden;
+}
+#job_view_comment .comment-form-comment label {
+    display: none;
+}
+#job_view_comment label {
+    padding-left: 5px;
+}
+#job_view_comment input, #job_view_comment textarea {
+    float: left;
+    font-size: 14px;
+}
+#job_comment { -moz-box-sizing: border-box; font-size: 0.857143rem; line-height: 1.71429; padding: 0.714286rem; width: 670px; }
+#job_list_page { width: 728px; text-align: center; margin-left: 2px; margin-top: 10px; float: left; }
+.pipe { margin: 0px 5px; color: rgb(204, 204, 204); }
+/*#article_content{padding: 22px 0px 90px;}*/
+
+#Job_Page_title { height: 50px; }
+#Job_Page_title h2 { background: url(../images/Job.jpg) no-repeat; float: left; height: 50px; width: 200px; }
+.other_info { float: right; position: relative; top: -5px; right: 10px; }
+.other_info dl { height: 20px; }
+.other_info h4 { color: rgb(19,19,19); }
+.other_info dd { display: inline; padding-left: 15px; }
+.other_info dd a { color: rgb(7, 111, 162); font-weight: bold; }
+.other_info dd a.on{ color: rgb(255, 102, 0); }
+.other_info dd a:hover { color: rgb(255, 102, 0); }
+#job_type_select { width: 728px; height: 250px; background: rgb(14,109,56); margin-left: 2px; }
+#job_type_select .company { position: absolute; background-color: rgb(183,31,59); left: 130px; top: 120px; }
+#job_type_select .company:hover { background-color: rgb(183,31,99); }
+#job_type_select .personal { position: absolute; background-color: rgb(0,183,224); left: 230px; top: 120px; }
+#job_type_select .personal:hover { background-color: rgb(0,183,255); }
+#job_type_select .btn { width: 80px; height: 80px; }
+#job_type_select a { display: block; font-size: 12pt; color: rgb(255, 255, 255); text-decoration: none; padding: 0px 0px 0px 40px; background: url("../images/actions.png") no-repeat scroll 0px 2px transparent; height: 80px; width: 40px; line-height: 32px; }
+#job_type_select p.notice { color: rgb(255,255,255); font-size: 14px; font-weight: bold; position: absolute; left: 380px; top: 140px; }
+a.rndbutton { background: none repeat scroll 0px 0px rgb(70, 130, 180); border: 0px solid rgb(0, 0, 0); color: rgb(255, 255, 255); cursor: pointer; float: left; font-weight: bold; height: 30px; margin: 0px; text-decoration: none; }
+a.rndbutton:hover { background: none repeat scroll 0px 0px rgb(56, 103, 143); }
+a.rndbutton span { /*background: none repeat scroll 0px 0px rgb(70, 130, 180);*/ color: rgb(255, 255, 255); float: left; height: 30px; line-height: 30px; margin: 0px 0px 0px 12px; padding: 0px 12px 0px 0px; }
+#error_msg { text-align: right; color: red; float: right; line-height: 30px; margin-right: 5px; width: 300px; height: 30px; overflow: hidden; }

@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* 使用重置样式表 */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */  
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */  
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+/*	全局宽度  网站宽度和居中 */
+.row {
+	width: 960px;
+	margin: 0 auto;
+}
+.wrap {
+	width: 960px;
+	margin: 0 auto;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+/* 各种快捷class	*/
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.il {
+	display: inline;
+}
+.clear {
+	clear: both;
+}
+/*链接颜色*/
+a {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font: 12px/17px "Tahoma", "simsun", "gulim", "Trebuchet MS", sans-serif;
+	line-height: 1.5em;
+}
+a:link {
+	color: #333;
+	text-decoration: none;
+}
+a:visited {
+	color: #666;
+	text-decoration: none;
+}
+a:hover {
+	color: #3399FF;
+	text-decoration: underline;
+}
+/* Box阴影(CSS3) */
+.box {
+	box-shadow: 5px 5px 5px #666;
+	-moz-box-shadow: 5px 5px 5px #666;
+	-webkit-box-shadow: 5px 5px 5px #666;
+}
+/* 文字阴影（CSS3） */
+.text {
+	text-shadow: 1px 1px 1px #666;
+	filter: Shadow(Color=#666666, Direction=135, Strength=5);
+}
+/* 跨浏览器的CSS透明度 */
+
+.transparent {
+	/* Modern Browsers */ opacity: 0.7;
+	/* IE 8 */ -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	/* IE 5-7 */ filter: alpha(opacity=70);
+	/* Netscape */ -moz-opacity: 0.7;
+	/* Safari 1 */ -khtml-opacity: 0.7;
+}
+/* 隐藏 */
+.hide {
+	display: none;
+}
+/* 圆角 */
+.element {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; /* future proofing */
+}
+.element-top-left-corner {
+	-moz-border-radius-topleft: 5px;
+	-webkit-border-top-left-radius: 5px;
+}
+body, th, td {
+	/*font-family: 'Microsoft Yahei', "돋음", dotum, "굴림", gulim, arial, applegothic, "애플고딕", sans-serif;*/
+	font: 12px/17px "Tahoma", "simsun", "gulim", "Trebuchet MS", sans-serif;
+	line-height: 1.5em;
+}
+/******************************************上面的都是通用定义******************************************************/

@@ -1,0 +1,112 @@
+/* wrapper css *//*
+#wrapper { width: 1000px;
+
+position: relative;
+margin-top: 5px; }
+#sidebar{position: absolute;
+left: 0px;
+top: 50px;
+width: 240px;}
+#wrapper hgroup { text-align: center; }
+#wrapper h2 { margin: 5px 0; color: #FF6D99; text-shadow: 1px 1px 2px #A50031; font-size: 33px; font-family: Arial Narrow, Arial, sans-serif; }
+#wrapper h3 { font-style: italic; font-weight: normal; font-size: 18px; text-shadow: 1px 1px 0 #fff; color: #888; margin: 5px 0; }
+#container { position: absolute;
+left: 245px;
+top: 0px;
+width: 730px;  }
+.grid { width: 188px; min-height: 100px; padding: 3px; background: #fff; margin: 8px; font-size: 12px; float: left; box-shadow: 0 1px 3px rgba(34,25,25,0.4); -moz-box-shadow: 0 1px 3px rgba(34,25,25,0.4); -webkit-box-shadow: 0 1px 3px rgba(34,25,25,0.4); -webkit-transition: top 1s ease, left 1s ease; -moz-transition: top 1s ease, left 1s ease; -o-transition: top 1s ease, left 1s ease; -ms-transition: top 1s ease, left 1s ease; }
+.grid strong { border-bottom: 1px solid #ccc; margin: 10px 0; display: block; padding: 0 0 5px; font-size: 17px; }
+.grid .meta { text-align: right; color: #777; font-style: italic; }
+.grid .imgholder img { max-width: 100%; background: #ccc; display: block; }
+ @media screen and (max-width : 1240px) {
+body { overflow: auto; }
+}
+@media screen and (max-width : 900px) {
+#backlinks { float: none; clear: both; }
+#backlinks a { display: inline-block; padding-right: 20px; }
+#wrapper { margin-top: 10px; }
+}
+#galleryMenu { pbackground-color: rgb(255, 255, 255);  }
+#galleryMenu .item { margin: 0px 8px; padding: 6px 0px 5px 1px; border-bottom: 1px dotted rgb(232, 232, 232); }
+#galleryMenu h2{padding: 0px 0px 5px;
+margin-bottom: 1px;
+border-bottom: 1px solid rgb(221, 221, 221);
+background: none repeat scroll 0% 0% rgb(240, 240, 240);height: 30px;}
+#galleryMenu .ico_hot{margin: 9px 8px 0px;
+float: left;background: url("http://mat1.gtimg.com/www/mb/res/img/channel/201307/index_png24_20130819.png") no-repeat scroll 0% 0% transparent;
+display: inline-block;width: 14px;
+height: 19px;
+background-position: -199px -9px;}
+#galleryMenu .hot_text{float: left;
+font-size: 14px;
+font-weight: bold;
+margin-top: 7px;
+color: rgb(102, 102, 102);}
+.user { padding: 10px 5px 0px; }
+.user .userpic, .user img, .user .mini_user_name { float: left; }
+.user .userpic { margin: 0px 6px 0px 5px; }
+.user img { display: block; width: 20px; height: 20px; }
+.user .mini_user_name { max-width: 75px; }
+.g-info { padding: 5px 5px 0px; margin: 0px 0px 5px; word-wrap: break-word; word-break: break-all; }
+.g-info p { color: rgb(68, 68, 68); }
+.g-meta { height: 31px; line-height: 31px; background-color: rgb(244, 244, 244); border-top: 1px solid rgb(235, 235, 235); }
+.g-meta .g-like, .g-meta .split { float: right; }
+.g-meta .g-like { display: inline-block; margin: 10px 10px 0px 0px; height: 12px; width: 1px; background-color: rgb(216, 216, 216); }
+.g-meta .g-com { cursor: pointer; color: rgb(75, 131, 184); margin-right: 10px; }
+.g-meta .g-like span{width: 13px;
+height: 12px;
+margin-top: 9px;
+background: url("http://mat1.gtimg.com/www/mb/res/img/channel/201307/index_png24_20130819.png") no-repeat scroll 0% 0% transparent;
+display: inline-block;
+background-position: -193px -32px;}*/
+
+/*******************************************/
+/*	*/
+body { background: url("http://m2three.u.qiniudn.com/bg.png") repeat scroll 0% 0% rgb(236, 238, 240); display: block; cursor: default; color: rgb(68, 68, 68); }
+.content {font: 12px Microsoft YaHei, Tahoma, Arial;  width: 1000px; margin: 0px auto; padding-top: 12px; padding-left: 3px; }
+.channel_info { box-shadow: 0px 2px 2px rgb(218, 218, 218); border: 1px solid rgb(221, 221, 221);text-align:right;padding-right:20px; position: relative; height: 30px; line-height: 30px; z-index: 100; margin: 0px 0px 5px 20px; }/*
+.content .left_wrap, .content .right_wrap .col { width: 234px; }
+.content .left_wrap, .content .right_wrap { float: left; }
+
+.left_wrap .left_menu { display: block; }}
+.left_wrap .item_wrap { margin-top: -1px; position: relative; }
+.leftt_wrap .nav_item { margin: 0px 8px; padding: 6px 0px 5px 1px; border-bottom: 1px dotted rgb(232, 232, 232); }
+.right_wrap .item_wrap .nav_item { margin: 0px 1px; padding: 10px 0px 0px 4px; border-top: 1px solid rgb(255, 255, 255); border-bottom: 1px solid rgb(255, 255, 255); }*/
+.gallery_sidebar{width:234px;float:left;}
+.gallery_sidebar .item_wrap{ position: relative; margin-bottom: 15px; background-color: rgb(255, 255, 255); box-shadow: 0px 2px 2px rgb(218, 218, 218); border: 1px solid rgb(221, 221, 221);}
+.gallery_sidebar col{width:234px;float:left;}
+.right_wrap .col { float: left; display: inline; margin-left: 20px; width: 234px; }
+
+.blog_item, .author_item { color: rgb(68, 68, 68); margin-bottom: 15px; background-color: rgb(255, 255, 255); box-shadow: 0px 2px 2px rgb(218, 218, 218); border: 1px solid rgb(221, 221, 221); }
+.blog_user { padding: 10px 5px 0px; }
+.blog_pic, .blog_pic img { display: block; width: 228px; overflow: hidden; opacity: 1;padding:1px; }
+.blog_pic img { margin-bottom: 2px; }
+.blog_user .user_pic { margin: 0px 6px 0px 5px; }
+.blog_user .user_pic, .blog_user .user_pic img { display: block; width: 20px; height: 20px; }
+.blog_user .user_pic, .blog_user .user_name { float: left; }
+.blog_user .mini_user_name { max-width: 75px; }
+.blog_user .user_name { width: auto; max-width: 90px; height: 21px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: rgb(68, 68, 68); line-height: 23px; }
+.blog_user .user_pic, .blog_user .user_name { float: left; }
+.blog_item .add_attention { float: right; display: inline-block; vertical-align: bottom; margin: 2px 5px 0px 0px; height: 18px; line-height: 17px; }
+.blog_item .add_state { float: right; display: inline-block; color: rgb(255, 255, 255); background-color: rgb(195, 195, 195); padding: 0px 7px; margin: 2px 5px 0px 0px; height: 18px; line-height: 17px; }
+.blog_info { padding: 5px 5px 0px; margin: 0px 0px 5px; word-wrap: break-word; word-break: break-all; }
+.blog_info p { margin: 0px 5px; }
+.blog_info .blog_time { margin: 2px 5px 0px; color: rgb(153, 153, 153); display: block; }
+.blog_info .hot_channel { color: rgb(153, 153, 153); border-top: 1px dotted rgb(208, 208, 208); margin: 3px 3px 0px; padding: 5px 2px 0px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.hot_channel a { margin: 0px 7px 0px 3px; }
+.blog_option { height: 31px; line-height: 31px; background-color: rgb(244, 244, 244); border-top: 1px solid rgb(235, 235, 235); }
+.blog_option .option_item { cursor: pointer; color: rgb(75, 131, 184); margin-right: 10px; }
+.blog_option .split { display: inline-block; margin: 10px 10px 0px 0px; height: 12px; width: 1px; background-color: rgb(216, 216, 216); }
+.blog_option .option_item, .blog_option .split { float: right; }
+.nav_item { margin: -1px 1px 0px; padding: 8px 7px 6px 8px; border: 0px none; }
+.nav_item .channel_title { font-size: 14px; color: rgb(75, 131, 184); margin: 0px 0px 7px 7px; display: block; transition: color 0.3s ease-in-out 0s; margin-bottom: 3px; font-weight: bold; }
+.nav_item .channel_title a { color: rgb(75, 131, 184); }
+.nav_item .channel_title a:hover { text-decoration: none; }
+.nav_item .third_channel { position: relative; max-height: 96px; overflow: hidden; padding: 0px 7px; max-height: 100%; }
+.right_adsence { float: right;
+width: 766px;
+margin: 0px 0px 15px 00px; }
+.left_menu h2 { padding: 5px 0px 5px 10px; margin-bottom: 1px; border-bottom: 1px solid rgb(221, 221, 221); background: none repeat scroll 0% 0% rgb(240, 240, 240); }
+.upload_gallery { color: rgb(68, 68, 68); margin-bottom: 15px; background-color: rgb(255, 255, 255); box-shadow: 0px 2px 2px rgb(218, 218, 218); border: 1px solid rgb(221, 221, 221); margin-left: 20px; width: 358px; float:left;padding:0px 15px;}
+.upload_gallery h3 { width: 233px; height: 35px;margin-left:10px; line-height: 35px; color: rgb(212, 212, 212); font-weight: bold; padding-left: 10px; background: #09C; }
+

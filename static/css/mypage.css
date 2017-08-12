@@ -1,0 +1,83 @@
+/* CSS Document */
+
+.lbor, .lbor2, .lbor3, .lbor4, .lbor5 {
+    border-style: none none none solid;
+}
+.bor, .tbor, .bbor, .lbor, .rbor, .bor2, .tbor2, .bbor2, .lbor2, .rbor2, .bgr, .bgr2, .bgr3, .bor3, .lbor3, .rbor3, .bbor3, .tbor3, .bor4, .lbor4, .rbor4, .bbor4, .tbor4, .bor5, .lbor5, .rbor5, .bbor5, .tbor5 {
+    border-width: 1px;
+}
+.bor, .tbor, .bbor, .lbor, .rbor, .bgr {
+    border-color: rgb(221, 221, 221);
+}
+.bg4 {
+    background-color: rgb(245, 245, 245);
+}
+.bg, .bgr, .bg_hover:hover, .bg_deep_dom {
+    background-color: rgb(255, 255, 255);
+}
+.bg_body {
+    background-image: url("http://cnc.i.gtimg.cn/qzone/space_item/orig/2/86626_bg.jpg");
+    background-repeat: repeat;
+}
+.lay_background {
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+    background-image: url("http://cnc.i.gtimg.cn/qzone/space_item/orig/2/86626_top.jpg");
+}
+.page_icenter { width: 999px; border-radius: 5px 5px 5px 5px; margin: 0px auto; float:left;margin-top:5px;}
+.col_menu { width: 170px; float: left; position: relative; }
+.col_main { width: 829px; float: left; border-top-right-radius: 5px; border-bottom-right-radius: 5px; }
+.col_main_feed {
+    width: 520px;
+    float: left;
+    padding: 20px 0px 20px 20px;
+}
+.col_main_sidebar{width: 220px;
+padding: 20px 9px 9px 0px;
+float: right;}
+.col_menu .fn_profile { padding: 20px 0px 20px 9px; position: relative; z-index: 10; width: 161px; min-height: 55px; font-size: 12px; border-top-left-radius: 5px; }
+.fn_profile a.ThemeSetting { position: absolute; right: 0px; top: 0px; text-indent: -9999px; width: 28px; height: 28px; background: url("/img/2012/enter_narrow.png") no-repeat scroll 0px 0px transparent; }
+.fn_profile .Img img { float: left; width: 56px; height: 56px; background: none repeat scroll 0% 0% rgb(255, 255, 255); padding: 3px; margin: 0px 8px 10px 0px; }
+.fn_profile span.U {width: 130px; float:left;}
+.fn_profile .stat { color: rgb(255, 255, 255); font-size: 9pt; }
+.fn_profile span.U .Name { background: none repeat scroll 0% 0% transparent; }
+.fn_profile span.U .Name { font-size: 12px; display: block; margin: 0px 0px 12px; font-weight: bold; word-wrap: break-word; }
+.fn_profile span.U .opts { color: rgb(255, 255, 255); font-size: 9pt; }
+#MyTweetForm { padding: 10px 15px; border: 1px solid rgb(238, 238, 238); background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+#TFormTitle { color: rgb(136, 136, 136); position: relative; }
+#TForm #TFormEditor { border: 2px solid rgb(0,146,223); padding: 2px; margin: 2px 0px 0px; background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+#TForm textarea { border: 0px none; width: 98%; height: 50px; padding: 5px; font-size: 10pt; overflow: auto; background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+#TForm #TFormOpts { margin: 0px 0px 0px 5px; }
+#TForm #TFormOpts ul { float: left; margin: 2px 0px 0px; padding: 1px; }
+#TForm #TFormOpts ul li.t { color: rgb(102, 102, 102); margin-right: 0px; }
+#TForm #TFormOpts ul li { display: inline; margin-right: 5px; }
+#TForm #TFormOpts ul li { display: inline; margin-right: 5px; }
+#TForm #TFormOpts ul li { display: inline; margin-right: 5px; }
+#TForm #TFormOpts ul li.app a { background: url("/img/space/app.gif") no-repeat scroll left center transparent; }
+#TForm #TFormOpts input.B { cursor: pointer; border: 0px none; float: right; font-size: 12pt; padding: 3px 20px 5px; margin-right: 10px; color: rgb(255, 255, 255); background: none repeat scroll 0% 0% rgb(0,146,223); }
+#TweetFormPopupWraper { display: none; position: absolute; z-index: 9999; }
+.col_main_sidebar .box_hd {
+    height: 21px;
+    margin-bottom: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+/*
+
+	new_msg_tb
+*/
+.new_msg_tb{width:100%;}
+.new_msg_tb td{padding:2px;cursor:pointer;}
+.mail_status{display:block;width:18px;height:16px;background:url(../images/mail.png) no-repeat;}
+.tb_list_con .new{background-position:-48px 0;}
+.tb_list_con .open{background-position:-48px -16px;}
+.fr_list{float: left;
+background: url("../images/fr_select.gif") no-repeat scroll 0% 0% transparent;
+width: 60px;
+cursor: pointer;
+height: 19px;
+color: rgb(112, 170, 89);
+padding: 2px 0px 1px 5px;
+border-top: 0px none;}

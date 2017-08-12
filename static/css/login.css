@@ -1,0 +1,21 @@
+/* CSS Document */
+
+/*
+
+	login page
+
+*/
+#register_wrapper { float:left;width:900px;border: 1px solid #dedede;  padding:50px; background: rgb(246,246,246); }
+#auth_wrapper { float:left;width:900px;border: 1px solid #dedede;padding:50px; background: rgb(246,246,246); }
+#login_wrapper { float:left; width: 590px; }
+#login_wrapper h2 { font-size: 16pt; font-weight: normal; color: rgb(51, 51, 51); border-bottom: 2px solid rgb(221, 221, 221); margin: 0px 50px 0px 0px; padding-bottom: 10px; }
+#login_wrapper form input.TEXT:focus { border: 1px solid rgb(64, 170, 83); outline: medium none; }
+#login_wrapper form input.TEXT { font-size: 16px; padding: 3px; border: 1px solid rgb(204, 204, 204); }
+#login_wrapper form th { font-size: 10.5pt; text-align: right; padding: 10px; }
+#login_wrapper form input.SUBMIT { font-weight: bold; }
+#login_wrapper form input.BUTTON { font-size: 14px; padding: 0px 5px; height: 30px; margin-top: 10px; }
+input.BUTTON { height: 25px; line-height: 25px; padding: 0px 3px; }
+#login_tip { position: absolute; width: 300px; top: 100px; left: 630px; font-size: 10.5pt; color: rgb(102, 102, 102); }
+#login_tip a { color: rgb(62, 98, 166); }
+#login_tip h3 { margin: 30px 0px 10px; font-size: 11pt; }
+#login_tip ol { font-size: 10pt; padding: 10px 5px; list-style-type: decimal; list-style-position: inside; }

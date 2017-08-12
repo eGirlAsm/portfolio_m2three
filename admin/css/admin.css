@@ -1,0 +1,116 @@
+/* CSS Document */
+.path_router_title {
+	font-size: 14px;
+}
+.prompt_title{font-size:12px;margin-bottom:20px;}
+.normal_title{font-size:12px;}
+.tb_normal {
+	width: 100%;
+	font-size: 12px;
+	font: 'microsoft yahei', Arial, Helvetica, sans-serif;
+	text-align: center;
+	border:1px solid #CCC;
+}
+
+.tb_normal td{height:26px;border:1px solid #CCC;}
+
+
+#title_tab{background: none repeat scroll 0% 0% rgb(210, 219, 234);
+height: 30px;
+padding: 5px 5px 0px;
+margin-bottom: 10px;}
+#title_tab li {
+	display:inline;
+    float: left;
+}
+
+#title_tab li a.on {
+    background: none repeat scroll 0% 0% rgb(255, 255, 255);
+    color: rgb(51, 51, 51);
+}
+#title_tab li a {
+    padding: 0px 13px;
+    line-height: 30px;
+    display: block;
+    font-size: 14px;
+}
+
+#page_tit {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(30, 50, 92);
+    line-height: 40px;
+    height: 40px;
+}
+
+#page_tit span {
+    float: right;
+    padding-right: 50px;
+    font-size: 12px;
+    color: green;
+    cursor: pointer;
+}
+
+.Toolbar_inbox {
+    background-color: rgb(210, 219, 234);
+    padding: 5px;
+    line-height: 26px;
+    border-bottom: 1px solid rgb(200, 207, 218);
+    overflow: hidden;
+}
+
+.page {
+    text-align: center;
+}
+.page {
+}
+.right {
+    float: right;
+}
+
+.Toolbar_inbox .btn_a {
+    background-position: 0px 0px;
+    margin-right: 5px;
+    padding-left: 8px;
+    display: inline-block;
+    line-height: 26px;
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+}
+.Toolbar_inbox .btn_a, .Toolbar_inbox .btn_a span {
+    background: url("../images/btn_a.gif") no-repeat scroll 0% 0% rgb(252, 252, 252);
+    cursor: pointer;
+}
+
+.Toolbar_inbox .btn_a span {
+    padding-right: 8px;
+    display: inline-block;
+    background-color: rgb(252, 252, 252);
+    background-position: right 0px;
+}
+.Toolbar_inbox .btn_a, .Toolbar_inbox .btn_a span {
+    background: url("../images/btn_a.gif") no-repeat scroll 0% 0% rgb(252, 252, 252);
+    cursor: pointer;
+}
+
+.list {
+    padding-top: 1px;
+    overflow: hidden;
+}
+
+.list table th {
+    background-color: rgb(242, 244, 246);
+    border-bottom: 1px solid rgb(193, 200, 210);
+    height: 35px;
+    text-align: left;
+    padding-left: 5px;
+    color: rgb(125, 125, 125);
+    font-weight: normal;
+}
+
+.list table td {
+    padding: 6px 0px 6px 5px;
+    border-bottom: 1px solid rgb(227, 230, 235);
+    word-break: break-all;
+    word-wrap: break-word;
+}

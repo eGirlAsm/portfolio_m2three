@@ -1,0 +1,250 @@
+@charset "utf-8";
+/* 使用重置样式表 */
+
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline; }
+/* remember to define focus styles! */  
+
+:focus { outline: 0; }
+body { line-height: 1; color: black; background: white; }
+ol, ul { list-style: none; }
+/* tables still need 'cellspacing="0"' in the markup */  
+
+table { border-collapse: separate; border-spacing: 0; }
+caption, th, td { text-align: left; font-weight: normal; }
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+/*	全局宽度  网站宽度和居中 */
+
+.row { width: 960px; margin: 0 auto; }
+.wrap { width: 960px; margin: 0 auto; }
+* { margin: 0; padding: 0; }
+/* 各种快捷class	*/
+
+.fl { float: left; }
+.fr { float: right; }
+.il { display: inline; }
+.clear { clear: both; }
+/*链接颜色*/
+
+a { margin: 0px; padding: 0px; border: 0px; font: 12px/17px "Tahoma", "simsun", "gulim", "Trebuchet MS", sans-serif; line-height: 1.5em; }
+a:link { color: #333; text-decoration: none; }
+a:visited { color: #666; text-decoration: none; }
+a:hover { color: #3399FF; text-decoration: underline; }
+/* Box阴影(CSS3) */
+
+.box { box-shadow: 5px 5px 5px #666; -moz-box-shadow: 5px 5px 5px #666; -webkit-box-shadow: 5px 5px 5px #666; }
+/* 文字阴影（CSS3） */
+
+.text { text-shadow: 1px 1px 1px #666; filter: Shadow(Color=#666666, Direction=135, Strength=5); }
+/* 跨浏览器的CSS透明度 */
+
+.text-overflow { display: block;/*内联对象需加*/ width: 31em; word-break: keep-all;/* 不换行 */ white-space: nowrap;/* 不换行 */ overflow: hidden;/* 内容超出宽度时隐藏超出部分的内容 */ text-overflow: ellipsis;/* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/ }
+.transparent { /* Modern Browsers */ opacity: 0.7; /* IE 8 */ -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; /* IE 5-7 */ filter: alpha(opacity=70); /* Netscape */ -moz-opacity: 0.7; /* Safari 1 */ -khtml-opacity: 0.7; }
+/* 隐藏 */
+
+.hide { display: none; }
+/* 圆角 */
+
+.element { -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; /* future proofing */ }
+.element-top-left-corner { -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px; }
+body, th, td { /*font-family: 'Microsoft Yahei', "돋음", dotum, "굴림", gulim, arial, applegothic, "애플고딕", sans-serif;*/ font: 12px/17px "Tahoma", "simsun", "gulim", "Trebuchet MS", sans-serif; line-height: 1.5em; }
+.shiny-blue { background-color: rgb(117, 154, 233); background-image: -moz-linear-gradient(center top, rgb(117, 154, 233) 0%, rgb(55, 111, 224) 50%, rgb(26, 90, 217) 50%, rgb(36, 99, 222) 100%); border-width: 1px; border-style: solid; border-color: rgb(31, 88, 204) rgb(27, 77, 179) rgb(23, 66, 153); border-radius: 4px 4px 4px 4px; box-shadow: 0px 0px 2px 0px rgba(57, 140, 255, 0.8) inset; color: rgb(255, 255, 255); font: bold 12px/1 "helvetica neue", helvetica, arial, sans-serif; padding: 7px 0px; text-shadow: 0px -1px 1px rgb(26, 90, 217); width: 150px; }
+.shiny-blue:hover { background-color: rgb(93, 137, 232); background-image: -moz-linear-gradient(center top, rgb(93, 137, 232) 0%, rgb(34, 97, 224) 50%, rgb(4, 75, 217) 50%, rgb(13, 83, 222) 100%); cursor: pointer; }
+.punch {
+    background: none repeat scroll 0% 0% rgb(65, 98, 168);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(56, 83, 140) rgb(31, 45, 77) rgb(21, 30, 51);
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0px 1px 10px 1px rgb(92, 139, 238) inset, 0px 1px 0px rgb(29, 44, 77), 0px 6px 0px rgb(31, 48, 83), 0px 8px 4px 1px rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    font: bold 20px/1 "helvetica neue",helvetica,arial,sans-serif;
+    margin-bottom: 10px;
+    padding: 10px 0px 12px;
+    text-align: center;
+    text-shadow: 0px -1px 1px rgb(30, 45, 77);
+    width: 150px;
+}
+.punch:hover {
+    box-shadow: 0px 0px 20px 1px rgb(135, 173, 255) inset, 0px 1px 0px rgb(29, 44, 77), 0px 6px 0px rgb(31, 48, 83), 0px 8px 4px 1px rgb(17, 17, 17);
+    cursor: pointer;
+}
+
+/******************************************上面的都是通用定义******************************************************/
+/* top-menu*/
+
+.top-menu-row { height: 34px; background: rgb(51,51,51); line-height: 34px; color: #aaa; }
+.top-menu { height: 34px; overflow: hidden; }
+.top-menu ul { margin: 0; padding: 0; list-style: none; text-align: right; }
+.top-menu li { display: inline; }
+.top-menu .first { color: rgb(239,239,239); }
+.top-menu a { padding: 0 10px 0 11px; border-left: 1px solid #83895c; text-decoration: none; color: rgb(187,187,187); }
+.top-menu a:hover { color: #eee;/*#eee;*/ }
+.first a { border: none; }
+/**/
+.m23-topbar-wrap {
+    height: 26px;
+    min-width: 960px;
+}
+.m23-topbar {
+    font-size: 12px;
+    font-family: "Microsoft Yahei";
+    background-color: rgb(51, 51, 51);
+    color: rgb(187, 187, 187);
+    height: 26px;
+    line-height: 24px;
+    position: relative;
+    z-index: 302;
+    width: 100%;
+    left: 0px;
+    text-align: left !important;
+}
+.m23-topbar .inner {
+    margin: 0px auto;
+    width: 960px;
+}
+.m23-topbar .inner {
+    margin: 0px auto;
+    width: 960px !important;
+}
+.m23-topbar .inner-left {
+    float: left;
+}
+.m23-topbar .inner-right {
+    float: right;
+}
+.m23-topbar .inner-left a {
+}
+.m23-topbar a {
+    color: rgb(187, 187, 187);
+}
+.m23-topbar i {
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background: none repeat scroll 0% 0% rgb(102, 102, 102);
+    margin: 0px 10px;
+    vertical-align: middle;
+}
+.m23-topbar .site_menu {
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+}
+.m23-topbar .site_menu a.menu-hd {
+    width: 62px;
+    position: relative;
+    display: inline-block;
+}
+.m23-topbar .site_menu .menu-bd {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(153, 153, 153);
+    color: rgb(102, 102, 102);
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: -22px;
+    width: 68px;
+    font-size: 12px;
+    padding: 10px 16px;
+}
+.m23-topbar .site_menu .menu-bd li {
+    height: 25px;
+    line-height: 25px;
+}
+.m23-topbar .site_menu .menu-bd li a {
+    color: rgb(102, 102, 102);
+}
+.m23-topbar .inner-left a.login-uname, .aysw-topbar-uname {
+    color: rgb(255, 102, 0) !important;
+}
+.m23-topbar a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+#J_site_menu:hover b {
+    border-color: rgb(51, 51, 51) rgb(51, 51, 51) rgb(255, 255, 255) !important;
+    top: 6px;
+}
+.m23-topbar .site_menu a.menu-hd b {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    width: 0px;
+    height: 0px;
+    border-width: 4px;
+    border-style: solid;
+    font-size: 0px;
+    line-height: 0;
+    border-color: rgb(187, 187, 187) rgb(51, 51, 51) rgb(51, 51, 51);
+}
+/**/
+#copyright { margin: 20px 0px; text-align: center; width: 100%; }
+#copyright li { display: inline; font-size: 11px; letter-spacing: -1px; background: url("../images/bg_line_gray.gif") no-repeat scroll right -1px transparent; padding: 0px 8px 0px 2px; }
+
+.lbor, .lbor2, .lbor3, .lbor4, .lbor5 {
+    border-style: none none none solid;
+}
+.bor, .tbor, .bbor, .lbor, .rbor, .bor2, .tbor2, .bbor2, .lbor2, .rbor2, .bgr, .bgr2, .bgr3, .bor3, .lbor3, .rbor3, .bbor3, .tbor3, .bor4, .lbor4, .rbor4, .bbor4, .tbor4, .bor5, .lbor5, .rbor5, .bbor5, .tbor5 {
+    border-width: 1px;
+}
+.bor, .tbor, .bbor, .lbor, .rbor, .bgr {
+    border-color: rgb(221, 221, 221);
+}
+.bg4 {
+    background-color: rgb(245, 245, 245);
+}
+.bg, .bgr, .bg_hover:hover, .bg_deep_dom {
+    background-color: rgb(255, 255, 255);
+}
+.bg_body {
+    background-image: url("http://cnc.i.gtimg.cn/qzone/space_item/orig/2/86626_bg.jpg");
+    background-repeat: repeat;
+}
+.lay_background {
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+    background-image: url("http://cnc.i.gtimg.cn/qzone/space_item/orig/2/86626_top.jpg");
+}
+.page_icenter { width: 960px; border-radius: 5px 5px 5px 5px; margin: 0px auto; }
+.col_menu { width: 170px; float: left; position: relative; }
+.col_main { width: 789px; float: left; border-top-right-radius: 5px; border-bottom-right-radius: 5px; }
+.col_main_feed {
+    width: 520px;
+    float: left;
+    padding: 20px 0px 20px 20px;
+    min-height: 1250px;
+}
+.col_main_sidebar{width: 220px;
+padding: 20px 9px 9px 0px;
+float: right;}
+.col_menu .fn_profile { padding: 20px 0px 20px 9px; position: relative; z-index: 10; width: 161px; min-height: 55px; font-size: 12px; border-top-left-radius: 5px; }
+.fn_profile a.ThemeSetting { position: absolute; right: 0px; top: 0px; text-indent: -9999px; width: 28px; height: 28px; background: url("/img/2012/enter_narrow.png") no-repeat scroll 0px 0px transparent; }
+.fn_profile .Img img { float: left; width: 56px; height: 56px; background: none repeat scroll 0% 0% rgb(255, 255, 255); padding: 3px; margin: 0px 8px 10px 0px; }
+.fn_profile span.U { float: left; width: 130px; }
+.fn_profile .stat { color: rgb(255, 255, 255); font-size: 9pt; }
+.fn_profile span.U .Name { background: none repeat scroll 0% 0% transparent; }
+.fn_profile span.U .Name { font-size: 14pt; display: block; margin: 0px 0px 12px; font-weight: bold; word-wrap: break-word; }
+.fn_profile span.U .opts { color: rgb(255, 255, 255); font-size: 9pt; }
+#MyTweetForm { padding: 10px 15px; border: 1px solid rgb(238, 238, 238); background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+#TFormTitle { color: rgb(136, 136, 136); position: relative; }
+#TForm #TFormEditor { border: 2px solid rgb(92, 194, 111); padding: 2px; margin: 2px 0px 0px; background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+#TForm textarea { border: 0px none; width: 98%; height: 50px; padding: 5px; font-size: 10pt; overflow: auto; background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+#TForm #TFormOpts { margin: 0px 0px 0px 5px; }
+#TForm #TFormOpts ul { float: left; margin: 2px 0px 0px; padding: 1px; }
+#TForm #TFormOpts ul li.t { color: rgb(102, 102, 102); margin-right: 0px; }
+#TForm #TFormOpts ul li { display: inline; margin-right: 5px; }
+#TForm #TFormOpts ul li { display: inline; margin-right: 5px; }
+#TForm #TFormOpts ul li { display: inline; margin-right: 5px; }
+#TForm #TFormOpts ul li.app a { background: url("/img/space/app.gif") no-repeat scroll left center transparent; }
+#TForm #TFormOpts input.B { cursor: pointer; border: 0px none; float: right; font-size: 12pt; padding: 3px 20px 5px; margin-right: 10px; color: rgb(255, 255, 255); background: none repeat scroll 0% 0% rgb(92, 194, 111); }
+#TweetFormPopupWraper { display: none; position: absolute; z-index: 9999; }
+.col_main_sidebar .box_hd {
+    height: 21px;
+    margin-bottom: 5px;
+    position: relative;
+    z-index: 1;
+}

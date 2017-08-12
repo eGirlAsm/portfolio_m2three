@@ -1,0 +1,137 @@
+/* CSS Document */
+.autobox:after { content: "."; height: 0px; display: block; clear: both; visibility: hidden; }
+#contents { width: 1000px; min-height: 710px; display: block; position: relative; margin-top: 5px;/*background: rgb(243,114,152);*/ }
+#contents .c_left { position: absolute; left: 0px; top: 0px; width: 234px; }
+#member_login { position: relative; height: 97px;  border: 1px solid rgb(182,184,187); display: block; z-index: 1; padding: 10px; }
+#member_login .textbox { position: absolute; left: 10px; top: 7px; font-family: '돋움', Dotum, Helvetica, sans-serif; font-size: 11px; letter-spacing: -1px; }
+#member_login .textbox li { margin-bottom: 3px; }
+#member_login .textbox input { width: 130px; height: 16px; padding: 4px 0px 0px 4px; border: 1px solid rgb(190, 190, 190); font-size: 12px; color: rgb(51, 51, 51); }
+#member_login .btn_login { position: absolute; width: 75px; right: 0px; top: 24px; letter-spacing: -1px; font-size: 11px; }
+#member_login .id_save { height: 19px; font-size: 11px; letter-spacing: -1px; padding-top: 3px; top: 73px; position: absolute; left: 11px; }
+#id_cookie { vertical-align: middle; margin: -1px 0px 1px; line-height: 16px; }
+#member_login .save_label { font-size: 11px; color: rgb(95, 97, 100); letter-spacing: -1px; cursor: pointer; line-height: 16px; color: rgb(95, 97, 100); }
+#member_login .admission { position: absolute; bottom: 10px; left: 12px; font-size: 11px; letter-spacing: -1px; }
+#member_login .member_idpw { margin-left: 5px; }
+.n_box { position: relative; margin-top: 4px; border-width: 1px; border-style: solid; border-color: rgb(213, 213, 213) rgb(213, 213, 213) rgb(222, 222, 222); }
+.n_title { height: 30px; border-bottom: 1px solid rgb(217, 218, 220); }
+#btnMenuSelect { position: absolute; left: 120px; top: 4px; z-index: 2; }
+#btnMenuSelect .btn_select { height: 22px; border: 1px solid #d0d0d1; background: #eff0f2 url(http://img.naver.net/static/www/sp_rgt20130626.png) no-repeat 94px -309px; line-height: 23px; font-size: 11px; font-weight: bold; letter-spacing: -1px; display: block; overflow: hidden; width: 102px; padding-left: 9px; }
+#btnMenuSelect .btn_select:hover { color: rgb(0,0,0); }
+#btnMenuSelect a:hover { text-decoration: none; }
+#btnMenuSelect li a { display: block; width: 102px; padding-left: 9px; font-size: 11px; color: rgb(136, 136, 136); letter-spacing: -1px; }
+#btnMenuSelect li a:hover { text-decoration: underline; }
+#btnMenuSelect li.on a { font-weight: 700; color: rgb(51, 153, 0); text-decoration: underline; }
+#btnMenuSelect .pressLst { top: 23px; left: 0px; border-right: 1px solid rgb(208, 208, 209); border-width: 1px; border-style: solid; border-color: rgb(232, 232, 232) rgb(208, 208, 209) rgb(208, 208, 209); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+#left_ad { }
+#left_job {  /*background: none repeat scroll 0% 0% rgb(247, 247, 247);*/ overflow: hidden; border: 1px solid rgb(217, 218, 220); position: relative; margin-top: 4px; }
+#left_job h3 { position: absolute; left: 5px; top: 8px; }
+
+#recruit_title { float: left; width: 220px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; padding: 0px 0px 5px 5px; }
+#recruit_date { float: left; }
+#poll_left { height: 139px; }
+#poll_left h3 { position: absolute; left: 5px; top: 8px; }
+#poll_left .section_cnt { margin: 13px; }
+#contents .c_center { position: absolute; left: 239px; top: 0px; width: 504px; }
+#main_news { position: relative; margin: 0px; height: 223px; border-width: 1px; border-style: solid; border-color: rgb(222, 222, 222) rgb(213, 213, 213) rgb(213, 213, 213); }
+#main_news_header { margin: 0px 0px 18px; padding-top: 9px; }
+#main_news_header h2 { width: 466px; margin-left: 10px; border-bottom: 1px solid rgb(234, 234, 234); height: 20px; background: url(../images/news.jpg) no-repeat; }
+#main_photo_news_top { width: 140px; float: left; margin-left: 10px; }
+#main_text_news_top { width: 330px; float: left; }
+#main_text_news_top .txtNewsList { margin-top: -10px; }
+#main_text_news_top ul { }
+#main_text_news_top li span { float: left; color: rgb(51, 51, 51); }
+#main_text_news_top li span a { font-size: 12px; color: rgb(51, 51, 51); }
+#main_text_news_top li a.news_tit { float: left; width: 245px; height: 22px; font-size: 12px; color: rgb(51, 51, 51); white-space: nowrap !important;  /*强制文字不换行(标准浏览器)*/ white-space: normal;  /*溢出的时候文字换行，并配合上面的固定高度，对文字进行裁切*/ overflow: hidden; text-overflow: ellipsis;  /*截断文字，显示省略号(...)*/ -o-text-overflow: ellipsis;  /*Opera的专用截断文字的属性*/ line-height: 22px; text-indent:4px; }
+#main_text_news_top li a:hover, #main_text_news_top li a:active { text-decoration: none; color: rgb(255, 0, 0); }
+#main_text_news_top li { line-height: 23px; height: 22px; color: rgb(51, 51, 51); margin-left: 20px; }/*
+#main_text_news_top p, #main_text_news_top p { font-weight: bold; color: rgb(102, 102, 102); font-size: 14px; width: 100%;word-break:keep-all;
+white-space:nowrap;text-overflow: ellipsis;overflow: hidden; }
+#main_text_news_top p a {color: rgb(255, 0, 0);}
+#main_text_news_top p span { float:left;font-size:12px;color:#666666;font-weight:normal;}
+#main_text_news_top p a:hover, #main_text_news_top p a:active { text-decoration: none; color: rgb(255, 0, 0); }*/
+#main_text_news_top p { text-indent: 2em; line-height: 21px; }
+#main_text_news_top a.imp{color: rgb(0,146,223);line-height: 22px;}
+#main_text_news_top .h2 {text-align: center;text-indent: 22px;display:block; font-weight: bold; color: rgb(102, 102, 102); font-size: 14px; width:350px; word-break: keep-all; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;letter-spacing:-1px;margin-right:-1em; }
+/**/
+
+#main_prenext_btn { position: absolute; top: 265px; right: 0px; height: 20px; text-align: right; }
+#main_prenext_btn a { display: inline-block; width: 13px; height: 20px; overflow: hidden; line-height: 999px; background: url("../images/m2_ico_news.png") no-repeat scroll 0px -47px transparent; vertical-align: top; }
+#main_prenext_btn a.next { width: 12px; margin-left: -4px; background-position: -13px -47px; }
+#cnt_center { height: 300px; }
+#business_center { height: 215px; }
+.ctMenu { float: left; height: 30px; width: 100%; line-height: 30px; }
+.ctMenu ul { margin: 0; padding: 11px; list-style: none; }
+.ctMenu li { display: inline; }
+.ctMenu li a { padding: 0 10px 0 11px; border-left: 1px solid #83895c; color: #6b6d70; vertical-align: 2px; text-decoration: none; }
+.ctMenu li.on a { color: #323a47; font-weight: bold }
+.ctMenu li a:hover { color: #323A47; text-decoration: underline; }
+.userPic_l img { width: 112px; height: 102px; padding: 1px; }
+.userPic_l li { float: left;padding: 5px;padding-left:6px; }
+.userPic_l li .txtbox{ width:112px; }
+#first_nobold a { border: none !important; }
+#contents .c_right { position: absolute; right: 0px; top: 0px; width: 250px; }
+#right_ad { width: 250px; }
+#right_top { margin-top: 5px; width: 250px; background: rgb(255,255,255); border-top: 1px solid rgb(222, 222, 222) rgb(213, 213, 213) rgb(213, 213, 213); }
+/*
+
+	right_note
+
+*/
+#right_note { height: 455px; overflow: hidden; }
+#right_note textarea { float: left; width: 203px; height: 36px; padding: 2px; resize: none; overflow: auto; border: 0px none; background: none repeat scroll 0% 0% rgb(255, 255, 255); font-size: 9pt; border-radius: 0px 0px 0px 0px; }
+#right_note form { margin: 0px 0px 10px; border: 1px solid rgb(190,190,190); background: none repeat scroll 0% 0% rgb(48,164,231); position: relative; height: 40px; }
+#right_note button { float: right; width: 37px; height: 40px; margin-right: 3px; font-size: 10pt; border: 0px none; background: url(http://m2three.u.qiniudn.com/btt_15.png) no-repeat transparent; color: rgb(255, 255, 255); font-weight: bold; }
+#right_note button:hover { color: rgb(255, 255, 0); cursor: pointer; }
+#right_note #DivPubStatus { text-align: center; position: absolute; top: 10px; left: 90px; font-size: 12pt; color: rgb(0, 102, 0); display: none; }
+#right_note ul li .user a { color: rgb(108, 171, 225); }
+#right_note ul li .time { display: block; color: rgb(154, 154, 154); margin: 5px 0px 0px; }
+#right_note ul li .log { color: rgb(102, 102, 102); word-break: break-all; }
+#right_note h3 { background: url(../images/qifu2.jpg) no-repeat; height: 30px; }
+#right_note ul li { margin: 0px 0px 5px; padding: 0px 0px 8px; border-bottom: 1px dashed rgb(221, 221, 221); }
+#right_note ul li .portrait { float: left; width: 45px; padding-top: 3px; }
+#right_note ul li .body { float: left; width: 200px; overflow: hidden; font-size: 9pt; }
+#right_note ul li .portrait img { width: 32px; height: 32px; border: 1px solid rgb(204, 204, 204); padding: 1px; background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+#right_note .TweetsSwitcher { border-top: 2px solid rgb(64, 170, 82); width: 100%; }
+#right_note .TweetsSwitcher .on { background-color: rgb(64, 170, 82); }
+#right_note .TweetsSwitcher .on a { color: rgb(255, 255, 255); }
+#right_note .TweetsSwitcher .img_new_on { background: url("../img/tweetsSwitcher1.gif") no-repeat scroll 0% 0% transparent; }
+#right_note .TweetsSwitcher .img { border: 0px none; margin: 0px; padding: 0px; height: 22px; width: 20px; }
+#right_note .TweetsSwitcher li { margin: 0px; padding: 0px 5px; border: 0px none; float: left; height: 22px; line-height: 22px; }
+#right_note .TweetsSwitcher .more { margin: 0px; float: right; color: rgb(170, 0, 0); padding: 0px; }
+#loginAfter img { width: 40px; height: 40px; border: 1px solid rgb(204, 204, 204); padding: 1px; background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+#loginAfter .picWrap { float: left; width: 40px; height: 40px; }
+#login_user { float: left; position: relative; width: 159px; height: 88px; padding: 0px 0px 0px 10px; }
+#login_user .username { display: block; font-size: 14px; color: rgb(9, 131, 235); height: 20px; margin: 0px 0px 3px; }
+.link a { height:20px; }
+#coins a { background: #dedede; padding: 0px 0px 0px 15px; color: rgb(255, 95, 75); background: url("../images/coins.png") no-repeat scroll 0px center transparent; }
+#coins a:hover { text-decoration: none; }
+#checkin .checkin-btn { cursor: pointer; float: left; height: 25px; width: 62px; padding-right: 2px; line-height: 26px; color: rgb(255, 255, 255); text-align: center; }
+.checkin { width: 100px; height: 25px; background: url("../images/to-sign-bg.jpg") no-repeat scroll 0px 0px transparent; position: absolute; top: 30px; left: 118px; }
+#checkin .checked { background: url("../images/have-signed.jpg") repeat scroll 0% 0% transparent; }
+#checkin .show-checked { cursor: pointer; float: left; text-align: center; width: 35px; height: 25px; line-height: 25px; }
+.levelWrap:hover { text-decoration: none; }
+.levelWrap .level { display: inline-block; color: rgb(255, 95, 75); }
+.levelWrap .progressbar { border: 1px solid rgb(189, 189, 189); display: inline-block; width: 50px; height: 8px; }
+.levelWrap .progressbar .value { display: block; background: none repeat scroll 0% 0% rgb(250, 192, 61); height: 100%; }
+/*
+
+	main_user_issue
+
+*/
+
+#main_user_issue { height: 280px; position: relative; margin-top: 4px; border: 1px solid rgb(222, 222, 222); }
+#main_user_issue h2 { background: url(../images/userissue.jpg) no-repeat; height: 20px; margin-top: 10px; margin-left: 15px; border-bottom: 1px solid rgb(222,222,222); width: 466px; }
+#main_user_issue .openTab { display: block; overflow: hidden; width: 420px; margin-left: 20px; height: 26px; margin-top: 5px; }
+#main_user_issue .openTab a { float: left; width: 54px; height: 26px; overflow: hidden; text-indent: -500px; text-decoration: none; background: url(../images/tab_aside_cate.gif) no-repeat scroll 0px -100px transparent; cursor: pointer; }
+#main_user_issue .openTab a strong { display: block; position: relative; height: 26px; overflow: hidden; margin-right: -1px; z-index: 1; background: url(../images/tab_aside_cate.gif) no-repeat; cursor: pointer }
+#main_user_issue .openTab .tab1 { background-position: -6px -8px; }
+#main_user_issue .openTab .tab1 strong { background-position: -6px -46px; }
+#main_user_issue .openTab .tab2 { background-position: -60px -8px; }
+#main_user_issue .openTab .tab2 strong { background-position: -60px -46px; }
+#main_user_issue .openTab .tab3 { background-position: -114px -8px; }
+#main_user_issue .openTab .tab3 strong { background-position: -114px -46px; }
+#main_user_issue .openTab .tab4 { width: 55px; background-position: -168px -8px; }
+#main_user_issue .openTab .tab4 strong { width: 55px; background-position: -168px -46px; }
+.openTab_l { height: 200px; margin-top: 10px; }
+.openTab_l p { float: left; width: 230px; margin-right: 0px; padding: 1px 1px 1px 13px; font-size: 12px; background: url("../images/dot.gif") no-repeat scroll -1px 3px transparent; overflow: hidden !important; height: 19px !important; margin-left: 5px; }
+.openTab_l p:hover { /*background: url("../images/l_ico.gif") no-repeat scroll transparent;*/ }
